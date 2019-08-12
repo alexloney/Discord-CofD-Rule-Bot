@@ -83,23 +83,27 @@ client.on('message', message => {
                     let embed = new Discord.RichEmbed()
                         .setTitle(title);
                     
-                    if ('type' in merit) {
+                    if ('type' in merit && merit.type.length > 0) {
                         embed.addField('Type', merit.type);
                     }
 
-                    if ('prerequisites' in merit) {
+                    if ('prerequisites' in merit && merit.prerequisites.length > 0) {
                         embed.addField('Prerequisites', replaceWithDots(merit.prerequisites));
                     }
 
                     if ('effect' in merit) {
-                        embed.setDescription(replaceWithDots(merit.effect.join('\n')));
+                        let effect = replaceWithDots(merit.effect.join('\n'));
+                        if (effect.length > 0)
+                            embed.setDescription(effect);
                     }
 
                     if ('drawback' in merit) {
-                        embed.addField('Drawback', replaceWithDots(merit.drawback.join('\n')));
+                        let drawback = replaceWithDots(merit.drawback.join('\n'));
+                        if (drawback.length > 0)
+                            embed.addField('Drawback', drawback);
                     }
 
-                    if ('source' in merit) {
+                    if ('source' in merit && merit.source.length > 0) {
                         embed.addField('Source', merit.source);
                     }
 

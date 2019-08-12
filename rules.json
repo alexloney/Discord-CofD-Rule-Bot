@@ -977,6 +977,1300 @@
 				"**Like the Breeze ({5}):** Your characters steps to one side as his opponent attacks, and gives her enough of a push to send her flying past him. When dodging, if your Defense roll reduces an opponent’s attack successes to zero, you can inflict the Knocked Down Tilt.",
 				"Drawback: Declare that you’re using this maneuver at the start of the turn before taking any other attacks."],
 			"source": "CofD 65"
+		},
+		{
+			"name": "Organization Size",
+			"type": "General",
+			"dots": [1, 2, 3, 4, 5],
+			"prerequisites": "Must be part of a violence group; cannot apply to individual characters.",
+			"effect": ["Each dot in Organization Size reflects a larger number of members that the group can bring to bear. One dot can reflect a local organization with only ten dedicated members, while five dots can represent a far-reaching organization with international ties, such as the Cosa Nostra or a Triad. The exact size of the group does not matter, while the number of supporters who can come at any given time does. Therefore, while the Mafia has hundreds of thousands of members, a local branch may only have a handful of men, and a smaller Merit rating.",
+				"Organization Size has several effects:",
+				"Each dot of the Merit adds to Doors whenever someone outside the group tries to manipulate a member through social maneuvering.",
+				"Whenever the members can work together towards a group roll, such as trying to put pressure on a judge or researching how to build a bomb, each dot adds an automatic success to the main actor’s total. On an extended action, apply the extra successes to the first roll.",
+				"If a member of the organization calls for help, each dot represents two average members, as detailed using the rules above, who will arrive to support in time. For long-term plans, up to five members per dot arrive to help in person."],
+			"drawback": ["The group expects you to do the same whenever someone else calls for your help. Members quickly can tell who steps up to the plate when the shit hits the fan, and who does not."],
+			"source": "HL 31"
+		},
+		{
+			"name": "Air of Menace",
+			"type": "General",
+			"dots": [2],
+			"prerequisites": "Intimidation {2}",
+			"effect": ["Your character has survived dozens of fights, and each one has taken its toll. He carries scars, features that have healed crookedly, and an attitude that unsettles others. The character gains +2 dice to rolls that use fear and menace to force compliance, such as with Intimidation rolls. Opponents less menacing than the character also think twice before provoking him. Opponents with Intimidation dots fewer than the character’s must spend a point of Willpower to initiate combat against him."],
+			"drawback": ["Though many people try to overcome their prejudices, appearance still drives many human opinions. In social maneuvers, the character’s first impression is downgraded one step for people who do not know him, and even for those who do, he must overcome an additional Door."],
+			"source": "HL 41"
+		},
+		{
+			"name": "Body as Weapon",
+			"type": "General",
+			"dots": [2],
+			"prerequisites": "Stamina {3}, Brawl {2}",
+			"effect": ["Your character has honed her body to be a hardened weapon. She has trained long, punishing hours to inure herself to the pain of the cracked knuckles, broken hands, and crushed toes that come with hitting others with her body. She can hit harder and more often without flinching. Your character’s unarmed strikes still cause bashing damage normally, but they add one point of bashing damage on a successful hit."],
+			"source": "HL 41"
+		},
+		{
+			"name": "Cohesive Unit",
+			"type": "General",
+			"dots": [1, 2, 3],
+			"prerequisites": "Presence {3}+",
+			"effect": ["Your character is a natural leader who brings out the best from those he works with. At one dot, team members add +2 dice to teamwork actions dedicated to helping the team (see **Chronicles of Darkness Rulebook**, p. 72). At two dots the team gains access to a pool of dice equal to the character’s Presence each scene, which they can draw upon for actions where they work towards their established purpose. At three dots, all team members can reroll a failed result once per scene. In each case, the benefits last until depleted, or until the team reaches or deviates from its agreed goal or disbands. The character with this Merit can’t access any of the benefits he encourages in others."],
+			"drawback": ["The character’s natural aura of command can cause confusion in groups where the character is not the recognized leader. If a group benefiting from the character’s Cohesive Unit Merit receives orders from someone they are expected to follow, and those orders don’t conform with the actions the group is already taking, they suffer a –1 penalty for a number of turns equal to the character’s Presence while they work through the conflicting tasks."],
+			"source": "HL 42"
+		},
+		{
+			"name": "Defender",
+			"type": "General",
+			"dots": [1, 2, 3],
+			"prerequisites": "None",
+			"effect": ["Your character is filled with a burning fury when her friends or family are threatened. For each dot of this Merit, the character gains a Willpower point to spend on actions related to defending or protecting these loved ones. This also applies to actions taken preemptively to prevent clear threats to her charges, and to acts of retribution against an offender if her loved ones are hurt. These bonus Willpower points do not count towards the character’s normal Willpower dots, and replenish each chapter."],
+			"drawback": ["The danger of loving so deeply is the pain of loss that comes from failing. If someone the character loves is killed or otherwise permanently taken from her, she cannot regain Willpower unless she strives towards inflicting retribution on the guilty party. If she is prevented in doing so, she grieves and loses a point of Willpower per day until she reaches zero. At this point, she may begin the healing process and recover Willpower as normal again. Your character loses this Merit at that point."],
+			"source": "HL 42"
+		},
+		{
+			"name": "Empath",
+			"type": "General",
+			"dots": [2],
+			"prerequisites": "Empathy {2}",
+			"effect": ["Your character has seen pain, and can identify it instantly. With a single Wits + Empathy roll, you can identify any mental Conditions from which a character suffers, and his Integrity. A character trying to hide this can contest with Manipulation + Subterfuge, but may roll no more dice than his Integrity or other relevant trait. If he does not have Integrity, you get an idea of his general, abstract state and internal conflicts. For example, a vampire has Humanity instead of Integrity. Your character might know that the vampire struggles with a terrible addiction, and feels inhuman, but wishes to maintain attachment to what made him feel like a person.",
+				"Any character so discerned is always down one Door in any social maneuvering with your character.",
+				"After a successful roll, with meaningful, relevant interaction, your character can give the 8-again quality to a subject’s breaking point rolls for the chapter.",
+				"If a character takes your character as a Support Network (see below), that character may never roll fewer dice for a breaking point than your character has Empathy dots."],
+			"source": "HL 42"
+		},
+		{
+			"name": "Object Fetishism",
+			"type": "General",
+			"dots": [1, 2, 3, 4, 5],
+			"effect": ["Your character places immense trust and confidence in an object, often assuming it has mystical or otherworldly significance. He believes he’s tied inexorably to the object. Choose a Skill Specialty when taking this Merit; that Specialty must be tied to your character’s relationship to the object.",
+				"Each chapter, your character gains an additional number of Willpower points equal to the Merit’s dots. If your character uses Willpower on a roll using that Specialty, any failure is considered a dramatic failure. However, exceptional successes occur on three successes instead of five.",
+				"Your character cannot regain or use Willpower when separated from the object.",
+				"**Note:** If the fetish object is destroyed or truly lost, it constitutes a breaking point, the dice pool of which suffers this Merit’s dots as a penalty."],
+			"source": "HL 42"
+		},
+		{
+			"name": "Peacemaker",
+			"type": "General",
+			"dots": [2, 3],
+			"prerequisites": "Wits {3}+ and Empathy {3}+",
+			"effect": ["Your character is keenly attuned to indications of imminent violence, and knows techniques to soothe hot tempers and calm emotions. At two dots, the character may act first in a violent scene to attempt to deescalate the behavior. He spends a point of Willpower and forces his opponent into a social maneuver. The opponent’s base number of Doors is equal to the higher of her Resolve or Composure for this maneuver.",
+				"The character rolls each turn as if he had a perfect first impression. If the character fails a roll, his opponent may attack him next turn unless he spends another point of Willpower to continue the social maneuver, but his opponent adds two Doors to her remaining total. If the character dramatically fails, his opponent may attack him immediately without the chance to reinitiate the social maneuver.",
+				"If the character removes his opponent’s final Door, her will to fight is exhausted — Storyteller characters will seek a nonviolent resolution to the scene. Players’ characters may either take a Beat and seek a nonviolent alternative, or gain the Reluctant Aggressor Condition.",
+				"When facing groups of attackers, this Merit allows the character to single out the leader of the group, or an individual the others look to for guidance. While the social maneuver continues, the other attackers wait to see the outcome. If the leader gains the Reluctant Aggressor Condition, so too do all her allies. The social maneuver automatically fails if the character’s allies initiate any violent actions while the character attempts to avoid violence.",
+				"At three dots, the character’s soothing voice and actions are almost supernatural in effect. He may use this Merit against opponents suffering supernaturally inspired anger, including vampires in frenzy or werewolves in Death Rage. These opponents have an additional number of Doors equal to their Supernatural Tolerance traits — talking down an enraged werewolf is very difficult, but the character can do it."],
+			"drawback": ["The character’s first instinct is to reduce violence, not join it. He suffers –1 to his dice pools for attacking opponents until he suffers damage, which overcomes his deeply-held reluctance to injure others."],
+			"source": "HL 42"
+		},
+		{
+			"name": "Punch Drunk",
+			"type": "General",
+			"dots": [2],
+			"prerequisites": "Willpower {6}+",
+			"effect": ["Your character’s resolve is unwavering, even when suffering wounds, broken limbs, and lost blood. She can fight on past the point that her body demands she quit. When she suffers bashing or lethal damage that would remove her last Health box, you may spend a point of Willpower to keep the last box, and instead upgrade damage in her other Health boxes. This Merit has no effect on aggravated damage."],
+			"source": "HL 43"
+		},
+		{
+			"name": "Scarred",
+			"type": "General",
+			"dots": [1],
+			"prerequisites": "Integrity {5} or lower",
+			"effect": ["You may take this Merit when failing a breaking point, if you have the Experience. Otherwise, with Storyteller discretion, you may take it “on loan,” and spend the next earned Experience on it.",
+				"When your character fails the breaking point and loses Integrity, write down this Merit along with whatever event caused the breaking point. Your character no longer suffers breaking points from that influence or action.",
+				"This Merit is tied to a specific Condition you and your Storyteller choose at the time you take this Merit; that Condition becomes Persistent. The normal resolution terms become a source of Beats. Removing the Scarred Merit becomes the only method for resolving that Condition.",
+				"**Note:** While you have this Merit, you cannot increase your character’s Integrity. You may shed it through the Sanctity of Merits rule if you wish to increase Integrity."],
+			"source": "HL 43"
+		},
+		{
+			"name": "Support Network",
+			"type": "General",
+			"dots": [1, 2, 3, 4, 5],
+			"prerequisites": "Allies, Mentor, Retainer, True Friend, or another similar Merit.",
+			"effect": ["Your character has friends, family, teammates, or any other person or people who provide emotional support in the face of terrifying circumstances. This Merit must be tied to another Social Merit such as Allies, Mentor, Retainer, or True Friend, but can be tied to any Merit representing a person or group that the Storyteller deems fitting. Alternatively, any character with the Empath Merit (see above) can be the anchor point for this Merit.",
+				"Once per chapter, you may prolong an Integrity breaking point by spending a point of Willpower. During the same chapter, your character must have a meaningful interaction with her Support Network, or the breaking point dramatically fails. If she interacts with her Support Network, add her dots in this Merit to the roll to resist the breaking point, and the roll achieves exceptional success on three successes instead of five."],
+			"source": "HL 43"
+		},
+		{
+			"name": "Survivalist",
+			"type": "General",
+			"dots": [1],
+			"prerequisites": "Survival {3}, Iron Stamina {3}",
+			"effect": ["**Style Tags:** Attitude (Endurance)",
+				"Your character has been trained to fight even through the most dangerous environmental extremes. When inflicted with the Extreme Cold Tilt or Extreme Heat Tilt (**Chronicles of Darkness Rulebook**, p. 282) she doesn’t begin taking the normal –1 to her rolls until a number of hours equal to her Stamina."],
+			"drawback": [""],
+			"source": "HL 43"
+		},
+		{
+			"name": "Avoidance",
+			"type": "Style",
+			"dots": [],
+			"prerequisites": "",
+			"effect": [""],
+			"drawback": [""],
+			"source": "HL 46"
+		},
+		{
+			"name": "Berserker",
+			"type": "Style",
+			"dots": [],
+			"prerequisites": "",
+			"effect": [""],
+			"drawback": [""],
+			"source": "HL 46"
+		},
+		{
+			"name": "Bowmanship",
+			"type": "Style",
+			"dots": [],
+			"prerequisites": "",
+			"effect": [""],
+			"drawback": [""],
+			"source": "HL 47"
+		},
+		{
+			"name": "Boxing",
+			"type": "Style",
+			"dots": [],
+			"prerequisites": "",
+			"effect": [""],
+			"drawback": [""],
+			"source": "HL 47"
+		},
+		{
+			"name": "Chain Weapons",
+			"type": "Style",
+			"dots": [],
+			"prerequisites": "",
+			"effect": [""],
+			"drawback": [""],
+			"source": "HL 48"
+		},
+		{
+			"name": "Combat Archery",
+			"type": "Style",
+			"dots": [],
+			"prerequisites": "",
+			"effect": [""],
+			"drawback": [""],
+			"source": "HL 48"
+		},
+		{
+			"name": "Falconry",
+			"type": "Style",
+			"dots": [],
+			"prerequisites": "",
+			"effect": [""],
+			"drawback": [""],
+			"source": "HL 48"
+		},
+		{
+			"name": "Grappling",
+			"type": "Style",
+			"dots": [],
+			"prerequisites": "",
+			"effect": [""],
+			"drawback": [""],
+			"source": "HL 49"
+		},
+		{
+			"name": "K-9",
+			"type": "Style",
+			"dots": [],
+			"prerequisites": "",
+			"effect": [""],
+			"drawback": [""],
+			"source": "HL 49"
+		},
+		{
+			"name": "Kino Mutai",
+			"type": "Style",
+			"dots": [],
+			"prerequisites": "",
+			"effect": [""],
+			"drawback": [""],
+			"source": "HL 50"
+		},
+		{
+			"name": "Martial Arts",
+			"type": "Style",
+			"dots": [],
+			"prerequisites": "",
+			"effect": [""],
+			"drawback": [""],
+			"source": "HL 50"
+		},
+		{
+			"name": "Mounted Combat",
+			"type": "Style",
+			"dots": [],
+			"prerequisites": "",
+			"effect": [""],
+			"drawback": [""],
+			"source": "HL 51"
+		},
+		{
+			"name": "Powered Projectile",
+			"type": "Style",
+			"dots": [],
+			"prerequisites": "",
+			"effect": [""],
+			"drawback": [""],
+			"source": "HL 51"
+		},
+		{
+			"name": "Spear and Bayonet",
+			"type": "Style",
+			"dots": [],
+			"prerequisites": "",
+			"effect": [""],
+			"drawback": [""],
+			"source": "HL 51"
+		},
+		{
+			"name": "Staff Fighting",
+			"type": "Style",
+			"dots": [],
+			"prerequisites": "",
+			"effect": [""],
+			"drawback": [""],
+			"source": "HL 51"
+		},
+		{
+			"name": "Strength Performance",
+			"type": "Style",
+			"dots": [],
+			"prerequisites": "",
+			"effect": [""],
+			"drawback": [""],
+			"source": "HL 52"
+		},
+		{
+			"name": "Systema",
+			"type": "Style",
+			"dots": [],
+			"prerequisites": "",
+			"effect": [""],
+			"drawback": [""],
+			"source": "HL 52"
+		},
+		{
+			"name": "Thrown Weapons",
+			"type": "Style",
+			"dots": [],
+			"prerequisites": "",
+			"effect": [""],
+			"drawback": [""],
+			"source": "HL 52"
+		},
+		{
+			"name": "Two Weapon Fighting",
+			"type": "Style",
+			"dots": [],
+			"prerequisites": "",
+			"effect": [""],
+			"drawback": [""],
+			"source": "HL 53"
+		},
+		{
+			"name": "Weapon and Shield",
+			"type": "Style",
+			"dots": [],
+			"prerequisites": "",
+			"effect": [""],
+			"drawback": [""],
+			"source": "HL 53"
+		},
+		{
+			"name": "Armed Restraint",
+			"type": "Individual Style",
+			"dots": [],
+			"prerequisites": "",
+			"effect": [""],
+			"drawback": [""],
+			"source": "HL 53"
+		},
+		{
+			"name": "Boot Party",
+			"type": "Individual Style",
+			"dots": [],
+			"prerequisites": "",
+			"effect": [""],
+			"drawback": [""],
+			"source": "HL 53"
+		},
+		{
+			"name": "Clinch Strike",
+			"type": "Individual Style",
+			"dots": [],
+			"prerequisites": "",
+			"effect": [""],
+			"drawback": [""],
+			"source": "HL 53"
+		},
+		{
+			"name": "Covert Operative",
+			"type": "Individual Style",
+			"dots": [],
+			"prerequisites": "",
+			"effect": [""],
+			"drawback": [""],
+			"source": "HL 53"
+		},
+		{
+			"name": "Ground and Pound",
+			"type": "Individual Style",
+			"dots": [],
+			"prerequisites": "",
+			"effect": [""],
+			"drawback": [""],
+			"source": "HL 54"
+		},
+		{
+			"name": "",
+			"type": "Individual Style",
+			"dots": [],
+			"prerequisites": "",
+			"effect": [""],
+			"drawback": [""],
+			"source": "HL 54"
+		},
+		{
+			"name": "Ground Fighter",
+			"type": "Individual Style",
+			"dots": [],
+			"prerequisites": "",
+			"effect": [""],
+			"drawback": [""],
+			"source": "HL 54"
+		},
+		{
+			"name": "Headbutt",
+			"type": "Individual Style",
+			"dots": [],
+			"prerequisites": "",
+			"effect": [""],
+			"drawback": [""],
+			"source": "HL 54"
+		},
+		{
+			"name": "Iron Chin",
+			"type": "Individual Style",
+			"dots": [],
+			"prerequisites": "",
+			"effect": [""],
+			"drawback": [""],
+			"source": "HL 54"
+		},
+		{
+			"name": "Phalanx Fighter",
+			"type": "Individual Style",
+			"dots": [],
+			"prerequisites": "",
+			"effect": [""],
+			"drawback": [""],
+			"source": "HL 54"
+		},
+		{
+			"name": "Transfer Maneuver",
+			"type": "Individual Style",
+			"dots": [],
+			"prerequisites": "",
+			"effect": [""],
+			"drawback": [""],
+			"source": "HL 54"
+		},
+		{
+			"name": "Trunk Squeeze",
+			"type": "Individual Style",
+			"dots": [],
+			"prerequisites": "",
+			"effect": [""],
+			"drawback": [""],
+			"source": "HL 54"
+		},
+		{
+			"name": "Retain Weapon",
+			"type": "Individual Style",
+			"dots": [],
+			"prerequisites": "",
+			"effect": [""],
+			"drawback": [""],
+			"source": "HL 54"
+		},
+		{
+			"name": "Roadkill",
+			"type": "Individual Style",
+			"dots": [],
+			"prerequisites": "",
+			"effect": [""],
+			"drawback": [""],
+			"source": "HL 54"
+		},
+		{
+			"name": "Aggressive Driving",
+			"type": "Other Style",
+			"dots": [],
+			"prerequisites": "",
+			"effect": [""],
+			"drawback": [""],
+			"source": "HL 55"
+		},
+		{
+			"name": "Drone Control",
+			"type": "Other Style",
+			"dots": [],
+			"prerequisites": "",
+			"effect": [""],
+			"drawback": [""],
+			"source": "HL 55"
+		},
+		{
+			"name": "Animal Possession",
+			"type": "Supernatural",
+			"dots": [],
+			"prerequisites": "",
+			"effect": [""],
+			"drawback": [""],
+			"source": "HL 72"
+		},
+		{
+			"name": "Apportation",
+			"type": "Supernatural",
+			"dots": [],
+			"prerequisites": "",
+			"effect": [""],
+			"drawback": [""],
+			"source": "HL 72"
+		},
+		{
+			"name": "Assertive Implement",
+			"type": "Supernatural",
+			"dots": [],
+			"prerequisites": "",
+			"effect": [""],
+			"drawback": [""],
+			"source": "HL 72"
+		},
+		{
+			"name": "Biomimicry",
+			"type": "Supernatural",
+			"dots": [],
+			"prerequisites": "",
+			"effect": [""],
+			"drawback": [""],
+			"source": "HL 72"
+		},
+		{
+			"name": "Bless Amulet",
+			"type": "Supernatural",
+			"dots": [],
+			"prerequisites": "",
+			"effect": [""],
+			"drawback": [""],
+			"source": "HL 72"
+		},
+		{
+			"name": "Camera Obscura",
+			"type": "Supernatural",
+			"dots": [],
+			"prerequisites": "",
+			"effect": [""],
+			"drawback": [""],
+			"source": "HL 73"
+		},
+		{
+			"name": "Consecrate Weapon",
+			"type": "Supernatural",
+			"dots": [],
+			"prerequisites": "",
+			"effect": [""],
+			"drawback": [""],
+			"source": "HL 73"
+		},
+		{
+			"name": "Curse Effigy",
+			"type": "Supernatural",
+			"dots": [],
+			"prerequisites": "",
+			"effect": [""],
+			"drawback": [""],
+			"source": "HL 73"
+		},
+		{
+			"name": "Dark Passenger",
+			"type": "Supernatural",
+			"dots": [],
+			"prerequisites": "",
+			"effect": [""],
+			"drawback": [""],
+			"source": "HL 73"
+		},
+		{
+			"name": "Doppelganger",
+			"type": "Supernatural",
+			"dots": [],
+			"prerequisites": "",
+			"effect": [""],
+			"drawback": [""],
+			"source": "HL 73"
+		},
+		{
+			"name": "Evil Eye",
+			"type": "Supernatural",
+			"dots": [],
+			"prerequisites": "",
+			"effect": [""],
+			"drawback": [""],
+			"source": "HL 73"
+		},
+		{
+			"name": "",
+			"type": "Supernatural",
+			"dots": [],
+			"prerequisites": "",
+			"effect": [""],
+			"drawback": [""],
+			"source": "HL 73"
+		},
+		{
+			"name": "Fated Ferocity",
+			"type": "Supernatural",
+			"dots": [],
+			"prerequisites": "",
+			"effect": [""],
+			"drawback": [""],
+			"source": "HL 74"
+		},
+		{
+			"name": "Hardened Exorcist",
+			"type": "Supernatural",
+			"dots": [],
+			"prerequisites": "",
+			"effect": [""],
+			"drawback": [""],
+			"source": "HL 74"
+		},
+		{
+			"name": "Hidden Variable",
+			"type": "Supernatural",
+			"dots": [],
+			"prerequisites": "",
+			"effect": [""],
+			"drawback": [""],
+			"source": "HL 74"
+		},
+		{
+			"name": "Incite Ecosystem",
+			"type": "Supernatural",
+			"dots": [],
+			"prerequisites": "",
+			"effect": [""],
+			"drawback": [""],
+			"source": "HL 74"
+		},
+		{
+			"name": "Invoke Spirit",
+			"type": "Supernatural",
+			"dots": [],
+			"prerequisites": "",
+			"effect": [""],
+			"drawback": [""],
+			"source": "HL 74"
+		},
+		{
+			"name": "Mind Control",
+			"type": "Supernatural",
+			"dots": [],
+			"prerequisites": "",
+			"effect": [""],
+			"drawback": [""],
+			"source": "HL 74"
+		},
+		{
+			"name": "Phantasmagoria",
+			"type": "Supernatural",
+			"dots": [],
+			"prerequisites": "",
+			"effect": [""],
+			"drawback": [""],
+			"source": "HL 74"
+		},
+		{
+			"name": "Psychic Concealment",
+			"type": "Supernatural",
+			"dots": [],
+			"prerequisites": "",
+			"effect": [""],
+			"drawback": [""],
+			"source": "HL 75"
+		},
+		{
+			"name": "Psychic Onslaught",
+			"type": "Supernatural",
+			"dots": [],
+			"prerequisites": "",
+			"effect": [""],
+			"drawback": [""],
+			"source": "HL 75"
+		},
+		{
+			"name": "Psychic Poltergeist",
+			"type": "Supernatural",
+			"dots": [],
+			"prerequisites": "",
+			"effect": [""],
+			"drawback": [""],
+			"source": "HL 75"
+		},
+		{
+			"name": "Psychokinetic Combat",
+			"type": "Supernatural",
+			"dots": [],
+			"prerequisites": "",
+			"effect": [""],
+			"drawback": [""],
+			"source": "HL 76"
+		},
+		{
+			"name": "Psychokinetic Resistance",
+			"type": "Supernatural",
+			"dots": [],
+			"prerequisites": "",
+			"effect": [""],
+			"drawback": [""],
+			"source": "HL 76"
+		},
+		{
+			"name": "Sacrificial Offering",
+			"type": "Supernatural",
+			"dots": [],
+			"prerequisites": "",
+			"effect": [""],
+			"drawback": [""],
+			"source": "HL 76"
+		},
+		{
+			"name": "Sojourner",
+			"type": "Supernatural",
+			"dots": [],
+			"prerequisites": "",
+			"effect": [""],
+			"drawback": [""],
+			"source": "HL 76"
+		},
+		{
+			"name": "Tactical Telepathy",
+			"type": "Supernatural",
+			"dots": [],
+			"prerequisites": "",
+			"effect": [""],
+			"drawback": [""],
+			"source": "HL 76"
+		},
+		{
+			"name": "Technopathy",
+			"type": "Supernatural",
+			"dots": [],
+			"prerequisites": "",
+			"effect": [""],
+			"drawback": [""],
+			"source": "HL 77"
+		},
+		{
+			"name": "Telekinetic Evasion",
+			"type": "Supernatural",
+			"dots": [],
+			"prerequisites": "",
+			"effect": [""],
+			"drawback": [""],
+			"source": "HL 77"
+		},
+		{
+			"name": "Vengeful Soul",
+			"type": "Supernatural",
+			"dots": [],
+			"prerequisites": "",
+			"effect": [""],
+			"drawback": [""],
+			"source": "HL 77"
+		},
+		{
+			"name": "Supernatural Resistance",
+			"type": "Supernatural",
+			"dots": [],
+			"prerequisites": "",
+			"effect": [""],
+			"drawback": [""],
+			"source": "HL 78"
+		},
+		{
+			"name": "Damn Lucky",
+			"type": "Atariya",
+			"dots": [1, 2, 3, 4, "Supernatural Merit"],
+			"prerequisites": "Mortal",
+			"effect": ["When taking damage from any source, spend a point of Willpower reflexively to activate Damn Lucky. This Merit “absorbs” up to one lethal damage or two bashing damage per dot, protecting your character from that harm. At any point in the same scene, you may choose another character to suffer that harm. The Storyteller decides just how this manifests. The victim may potentially avoid the harm with a successful Wits + Composure roll, requiring successes equal to your dots in this Merit. If successful, she may act normally (potentially requiring Initiative rolls) or apply her Defense. If the Storyteller needs to make a dice roll for the phenomenon, use twice your Merit dots, but do not apply the successes as additional damage.",
+				"For example, if your character has Damn Lucky {3}, and takes a bullet to the chest for four lethal damage, you may spend a point of Willpower to activate this Merit. The bullet would only cause one lethal damage; the bullet may have hit the book he’s keeping in his coat pocket. You may choose to have that damage apply to his shooter. The Storyteller decides that happens when a ricochet knocks down a chandelier. The shooter’s player rolls Wits + Composure, and gets the required three successes. So the Storyteller makes an attack roll for the chandelier, but applies the shooter’s Defense to the roll.",
+				"If the total damage absorbed is less than your Merit dots, you may absorb damage from multiple sources, but only up to a limit of your total dots in a scene."],
+			"drawback": [""],
+			"source": "HL 79"
+		},
+		{
+			"name": "Mr. Lucky",
+			"type": "Atariya",
+			"dots": [],
+			"prerequisites": "Atariya, Damn Lucky",
+			"effect": ["You’re still not sure if it’s real, but there’s this guy, he hangs around. He’s always there, smiling, at just the right place at just the right time. Always smiling. But if he’s around, you know shit’s about to go bad fast. Is he there to help you? Warn you? Or just eat up the bad luck that’s about to flow all over the place? Is he even really your friend?",
+				"Mr. Lucky can actually manifest in a number of different ways depending on the Merit-holder and his cultural references. Universally, though, Mr. Lucky is always smiling, and he/she/it never speaks.",
+				"Any time your character would be surprised or put into immense danger, the Storyteller should introduce Mr. Lucky to the scene somehow. You never suffer penalties to Wits + Composure rolls to avoid surprise or ambush, and a single success on such rolls is considered an exceptional success. Your character also receives +2 to any Initiative rolls that",
+				"**Note:** Characters with Mr. Lucky may see manifestations or influences of him in other Merits they purchase. For example, a character with Count Down and Mr. Lucky may find that he whispers the number of lives she has left in her ear when she’s about to die. Or a character with Sense Flow may see Mr. Lucky leaning on an unfortunate just before he fails."],
+			"drawback": [""],
+			"source": "HL 80"
+		},
+		{
+			"name": "Nine Lives",
+			"type": "Atariya",
+			"dots": [1, 2, 3, 4, 5, "Supernatural Merit"],
+			"prerequisites": "Atariya, Damn Lucky",
+			"effect": ["Any time your character might die (or should die) in a scene, you can cash in one dot of this Merit. Fate conspires to save you at the last minute. You’re moved up to some stable state and removed from immediate danger. You’ll pop up later okay — banged up, whatever, but alive. Characters with this Merit do not necessarily know how many lives they have left. Because of the nature of being lucky, it’s very hard to tell if what they had was a brush with death or just a brush with misfortune.",
+				"**Notes:** Dots of Nine Lives can only be purchased at character creation. When you cash in a dot of Nine Lives, you can change it out with the Sanctity of Merits rule (see the **Chronicles of Darkness Rulebook**, p. 43)."],
+			"drawback": [""],
+			"source": "HL 80"
+		},
+		{
+			"name": "Count Down",
+			"type": "Atariya",
+			"dots": [1, "Supernatural Merit"],
+			"prerequisites": "Atariya, Nine Lives",
+			"effect": ["No one ever sees the bullet with his name on it, but an Atariya with this Merit at least knows how many other bullets are in the chamber. The character is acutely aware of how many times he’ll narrowly escape death. This may manifest as a number in his dreams, a mysterious tattoo he doesn’t remember getting that changes each time he dies, or Mr. Lucky showing up to hold up fingers whenever the character wonders about it."],
+			"drawback": ["Knowing how many times you can run into a bad situation and live to tell about it has its own internal pressure. Characters with this Merit suffer a Condition related to how they cope with that stress. For example, a character actively paranoid about his own deaths may suffer a permanent Paranoid Condition."],
+			"source": "HL 80"
+		},
+		{
+			"name": "See the Flow",
+			"type": "Atariya",
+			"dots": [1, 2, 3, 4, 5, "Supernatural Merit"],
+			"prerequisites": "Atariya, Damn Lucky",
+			"effect": ["The Atariya with this Merit have an innate sense of people who are about to experience the flow of fortune, for better or worse. Further, they can declare with startling accuracy when someone is about to pull off something incredible or when they’re about to fail hard. Their predictive capability has nothing to do with seeing the future, and everything to do with following luck’s flow.",
+				"When the player of another character or the Storyteller prepares a dice pool to roll, if it is more than eight dice, the Atariya gets a sense of luck flowing positively for that character. In the same situation, should a dice pool be three or under, the Atariya gets a sense of a rush of bad luck flowing toward that person. Further, if a character has a modified threshold of exceptional success on a roll they are about to perform (as is the case with Merits like Professional Training), the Atariya gets a secondary sense that the chances of something amazing are much higher.",
+				"At that point, the Atariya can spend a point of Willpower. If she does, she can reduce or increase the perceived dice pool by a number up to her See the Flow dots. She may use this Merit to affect multiple dice pools in a scene, but only up to her total dots. This isn’t the Atariya affecting luck, but more that she’s calling out the exceptional fate in the moment. So, for example, a mage able to detect shifts in luck would not detect a change from this Merit."],
+			"source": "HL 81"
+		},
+		{
+			"name": "Luck Flows Up",
+			"type": "Atariya",
+			"dots": [2, "Supernatural Merit"],
+			"prerequisites": "Atariya, Damn Lucky",
+			"effect": ["Your character is a magnet for fortune and fate. When she’s close to someone, she unintentionally steals his good fortune. If she touches someone, this Merit takes effect unless she spends a point of Willpower to curb the effect for a scene. In the same day, any failures the subject makes are considered dramatic failures. If she’s used this Merit at any time in a given day, she gains four dice any time she spends Willpower to increase a dice pool.",
+				"**Drawback:** Once a victim of this Merit suffers a dramatic failure, he hears your character’s name in the back of his mind. Luck has a sense of humor.",
+				"**Note:** Your character cannot have this Merit and Thief of Fate (**Chronicles of Darkness Rulebook**, p. 60)."],
+			"source": "HL 81"
+		},
+		{
+			"name": "Easy Come, Easy Go",
+			"type": "Atariya",
+			"dots": [1, "Supernatural Merit"],
+			"prerequisites": "Atariya, Damn Lucky",
+			"effect": ["When luck is on your side, you make fast gains and just as fast losses. You might win the lottery today, and get audited tomorrow. It all works out in the end, which is why you don’t sweat the details. So what if your cop friend started hating you for hanging out with a drug dealer? That US attorney who invited you randomly to lunch is a better friend anyway! You can abandon Merits and purchase new ones in accordance with the Sanctity of Merits rule (see the **Chronicles of Darkness Rulebook**, p. 43). However, you may do this with a given Merit once per chapter, during the chapter, at any time. You can “hot swap” up to five dots’ worth of Merits per chapter."],
+			"source": "HL 81"
+		},
+		{
+			"name": "All-In",
+			"type": "Atariya",
+			"dots": [3, "Supernatural Merit"],
+			"prerequisites": "Atariya, Resolve {3}, Damn Lucky",
+			"effect": ["Most competent characters can all but assure basic success on skilled tasks. Your character can forgo that assurance, and turn an otherwise guaranteed victory into a gambit between catastrophe and miracle. Spend a Willpower point to activate All-In. Reduce your dice pool for a given action to one die. Roll that single die, but with 8-again if you did not already have it. If successful, the action succeeds. If the roll fails, the roll is considered a dramatic failure.",
+				"For every two dice removed from your pool (rounded down), a successful roll achieves one additional automatic success. For example, if your character has eight dice, reducing that to one die would offer three automatic successes (seven, divided by two, rounded down), if your roll was successful. If you rolled a single success, this would mean the action succeeds with four successes.",
+				"No effect can apply the rote quality to this roll."],
+			"source": "HL 81"
+		},
+		{
+			"name": "Subliminal Conditioning",
+			"type": "Dreamers",
+			"dots": [],
+			"prerequisites": "",
+			"effect": [""],
+			"drawback": [""],
+			"source": "HL 83"
+		},
+		{
+			"name": "A Word from Our Sponsor",
+			"type": "Dreamers",
+			"dots": [],
+			"prerequisites": "",
+			"effect": [""],
+			"drawback": [""],
+			"source": "HL 84"
+		},
+		{
+			"name": "Realpolitik",
+			"type": "Dreamers",
+			"dots": [],
+			"prerequisites": "",
+			"effect": [""],
+			"drawback": [""],
+			"source": "HL 84"
+		},
+		{
+			"name": "Memory Palace",
+			"type": "Dreamers",
+			"dots": [],
+			"prerequisites": "",
+			"effect": [""],
+			"drawback": [""],
+			"source": "HL 84"
+		},
+		{
+			"name": "The Treatment",
+			"type": "Dreamers",
+			"dots": [],
+			"prerequisites": "",
+			"effect": [""],
+			"drawback": [""],
+			"source": "HL 84"
+		},
+		{
+			"name": "Not A Bug But A Feature",
+			"type": "Dreamers",
+			"dots": [],
+			"prerequisites": "",
+			"effect": [""],
+			"drawback": [""],
+			"source": "HL 85"
+		},
+		{
+			"name": "Mephistopheles",
+			"type": "Dreamers",
+			"dots": [],
+			"prerequisites": "",
+			"effect": [""],
+			"drawback": [""],
+			"source": "HL 85"
+		},
+		{
+			"name": "Déjà vu",
+			"type": "Dreamers",
+			"dots": [],
+			"prerequisites": "",
+			"effect": [""],
+			"drawback": [""],
+			"source": "HL 85"
+		},
+		{
+			"name": "Field Handler",
+			"type": "Dreamers",
+			"dots": [],
+			"prerequisites": "",
+			"effect": [""],
+			"drawback": [""],
+			"source": "HL 85"
+		},
+		{
+			"name": "Carrier",
+			"type": "The Infected",
+			"dots": [],
+			"prerequisites": "",
+			"effect": [""],
+			"drawback": [""],
+			"source": "HL 88"
+		},
+		{
+			"name": "Bulletman Syndrome",
+			"type": "The Infected",
+			"dots": [],
+			"prerequisites": "",
+			"effect": [""],
+			"drawback": [""],
+			"source": "HL 88"
+		},
+		{
+			"name": "The New Flesh",
+			"type": "The Infected",
+			"dots": [],
+			"prerequisites": "",
+			"effect": [""],
+			"drawback": [""],
+			"source": "HL 89"
+		},
+		{
+			"name": "Patient Zero",
+			"type": "The Infected",
+			"dots": [],
+			"prerequisites": "",
+			"effect": [""],
+			"drawback": [""],
+			"source": "HL 90"
+		},
+		{
+			"name": "Proud Parent",
+			"type": "The Infected",
+			"dots": [],
+			"prerequisites": "",
+			"effect": [""],
+			"drawback": [""],
+			"source": "HL 90"
+		},
+		{
+			"name": "Bloodkin",
+			"type": "The Infected",
+			"dots": [],
+			"prerequisites": "",
+			"effect": [""],
+			"drawback": [""],
+			"source": "HL 90"
+		},
+		{
+			"name": "Virulent",
+			"type": "The Infected",
+			"dots": [],
+			"prerequisites": "",
+			"effect": [""],
+			"drawback": [""],
+			"source": "HL 90"
+		},
+		{
+			"name": "Plain Reader",
+			"type": "The Plain",
+			"dots": [],
+			"prerequisites": "",
+			"effect": [""],
+			"drawback": [""],
+			"source": "HL 92"
+		},
+		{
+			"name": "You Are Being Recorded",
+			"type": "The Plain",
+			"dots": [],
+			"prerequisites": "",
+			"effect": [""],
+			"drawback": [""],
+			"source": "HL 93"
+		},
+		{
+			"name": "I’m Bleeding on You",
+			"type": "The Plain",
+			"dots": [],
+			"prerequisites": "",
+			"effect": [""],
+			"drawback": [""],
+			"source": "HL 93"
+		},
+		{
+			"name": "Most Infected Thing I’ve Ever Seen",
+			"type": "The Plain",
+			"dots": [],
+			"prerequisites": "",
+			"effect": [""],
+			"drawback": [""],
+			"source": "HL 94"
+		},
+		{
+			"name": "Over Before it Started",
+			"type": "The Plain",
+			"dots": [],
+			"prerequisites": "",
+			"effect": [""],
+			"drawback": [""],
+			"source": "HL 94"
+		},
+		{
+			"name": "Phantom Pain",
+			"type": "The Plain",
+			"dots": [],
+			"prerequisites": "",
+			"effect": [""],
+			"drawback": [""],
+			"source": "HL 94"
+		},
+		{
+			"name": "The Consequences of Violence",
+			"type": "The Plain",
+			"dots": [],
+			"prerequisites": "",
+			"effect": [""],
+			"drawback": [""],
+			"source": "HL 94"
+		},
+		{
+			"name": "The Push",
+			"type": "The Plain",
+			"dots": [],
+			"prerequisites": "",
+			"effect": [""],
+			"drawback": [""],
+			"source": "HL 94"
+		},
+		{
+			"name": "The Protocol",
+			"type": "The Lost Boys",
+			"dots": [],
+			"prerequisites": "",
+			"effect": [""],
+			"drawback": [""],
+			"source": "HL 96"
+		},
+		{
+			"name": "Protocol Fixer",
+			"type": "The Lost Boys",
+			"dots": [],
+			"prerequisites": "",
+			"effect": [""],
+			"drawback": [""],
+			"source": "HL 97"
+		},
+		{
+			"name": "Lost Boys Network Status",
+			"type": "The Lost Boys",
+			"dots": [],
+			"prerequisites": "",
+			"effect": [""],
+			"drawback": [""],
+			"source": "HL 97"
+		},
+		{
+			"name": "Archangel System",
+			"type": "The Lost Boys",
+			"dots": [],
+			"prerequisites": "",
+			"effect": [""],
+			"drawback": [""],
+			"source": "HL 97"
+		},
+		{
+			"name": "Augmented Resilience",
+			"type": "The Lost Boys",
+			"dots": [],
+			"prerequisites": "",
+			"effect": [""],
+			"drawback": [""],
+			"source": "HL 98"
+		},
+		{
+			"name": "Augmented Speed",
+			"type": "The Lost Boys",
+			"dots": [],
+			"prerequisites": "",
+			"effect": [""],
+			"drawback": [""],
+			"source": "HL 98"
+		},
+		{
+			"name": "Cloaking Device",
+			"type": "The Lost Boys",
+			"dots": [],
+			"prerequisites": "",
+			"effect": [""],
+			"drawback": [""],
+			"source": "HL 99"
+		},
+		{
+			"name": "Holdout Storage",
+			"type": "The Lost Boys",
+			"dots": [],
+			"prerequisites": "",
+			"effect": [""],
+			"drawback": [""],
+			"source": "HL 99"
+		},
+		{
+			"name": "Implanted Interface",
+			"type": "The Lost Boys",
+			"dots": [],
+			"prerequisites": "",
+			"effect": [""],
+			"drawback": [""],
+			"source": "HL 99"
+		},
+		{
+			"name": "Jumper",
+			"type": "The Lost Boys",
+			"dots": [],
+			"prerequisites": "",
+			"effect": [""],
+			"drawback": [""],
+			"source": "HL 99"
+		},
+		{
+			"name": "Last-Chance",
+			"type": "The Lost Boys",
+			"dots": [],
+			"prerequisites": "",
+			"effect": [""],
+			"drawback": [""],
+			"source": "HL 99"
+		},
+		{
+			"name": "Pulse Generator",
+			"type": "The Lost Boys",
+			"dots": [],
+			"prerequisites": "",
+			"effect": [""],
+			"drawback": [""],
+			"source": "HL 99"
+		},
+		{
+			"name": "Strength Augmentation",
+			"type": "The Lost Boys",
+			"dots": [],
+			"prerequisites": "",
+			"effect": [""],
+			"drawback": [""],
+			"source": "HL 100"
+		},
+		{
+			"name": "Sub-Dermal Armor",
+			"type": "The Lost Boys",
+			"dots": [],
+			"prerequisites": "",
+			"effect": [""],
+			"drawback": [""],
+			"source": "HL 100"
+		},
+		{
+			"name": "Uncanny Perception",
+			"type": "The Lost Boys",
+			"dots": [],
+			"prerequisites": "",
+			"effect": [""],
+			"drawback": [""],
+			"source": "HL 100"
+		},
+		{
+			"name": "Voice Box",
+			"type": "The Lost Boys",
+			"dots": [],
+			"prerequisites": "",
+			"effect": [""],
+			"drawback": [""],
+			"source": "HL 100"
+		},
+		{
+			"name": "Psychic Vampirism",
+			"type": "Psychic Vampires",
+			"dots": [],
+			"prerequisites": "",
+			"effect": [""],
+			"drawback": [""],
+			"source": "HL 101"
+		},
+		{
+			"name": "Breath Stealer",
+			"type": "Psychic Vampires",
+			"dots": [],
+			"prerequisites": "",
+			"effect": [""],
+			"drawback": [""],
+			"source": "HL 103"
+		},
+		{
+			"name": "Burst of Speed",
+			"type": "Psychic Vampires",
+			"dots": [],
+			"prerequisites": "",
+			"effect": [""],
+			"drawback": [""],
+			"source": "HL 103"
+		},
+		{
+			"name": "Ephemeral Battery",
+			"type": "Psychic Vampires",
+			"dots": [],
+			"prerequisites": "",
+			"effect": [""],
+			"drawback": [""],
+			"source": "HL 103"
+		},
+		{
+			"name": "Euphoric Touch",
+			"type": "Psychic Vampires",
+			"dots": [],
+			"prerequisites": "",
+			"effect": [""],
+			"drawback": [""],
+			"source": "HL 103"
+		},
+		{
+			"name": "Nocturnal Supremacy",
+			"type": "Psychic Vampires",
+			"dots": [],
+			"prerequisites": "",
+			"effect": [""],
+			"drawback": [""],
+			"source": "HL 103"
+		},
+		{
+			"name": "Psychic Infection",
+			"type": "Psychic Vampires",
+			"dots": [],
+			"prerequisites": "",
+			"effect": [""],
+			"drawback": [""],
+			"source": "HL 103"
+		},
+		{
+			"name": "Psychic Seduction",
+			"type": "Psychic Vampires",
+			"dots": [],
+			"prerequisites": "",
+			"effect": [""],
+			"drawback": [""],
+			"source": "HL 104"
+		},
+		{
+			"name": "Psychic Transference",
+			"type": "Psychic Vampires",
+			"dots": [],
+			"prerequisites": "",
+			"effect": [""],
+			"drawback": [""],
+			"source": "HL 104"
+		},
+		{
+			"name": "Shapechanging",
+			"type": "Psychic Vampires",
+			"dots": [],
+			"prerequisites": "",
+			"effect": [""],
+			"drawback": [""],
+			"source": "HL 104"
+		},
+		{
+			"name": "Soul Eater",
+			"type": "Psychic Vampires",
+			"dots": [],
+			"prerequisites": "",
+			"effect": [""],
+			"drawback": [""],
+			"source": "HL 104"
+		},
+		{
+			"name": "Unearthly Beauty",
+			"type": "Psychic Vampires",
+			"dots": [],
+			"prerequisites": "",
+			"effect": [""],
+			"drawback": [""],
+			"source": "HL 104"
+		},
+		{
+			"name": "Vampiric Potency",
+			"type": "Psychic Vampires",
+			"dots": [],
+			"prerequisites": "",
+			"effect": [""],
+			"drawback": [""],
+			"source": "HL 104"
+		},
+		{
+			"name": "Trigger Discipline",
+			"dots": [1],
+			"prerequisites": "Wits {2}, Firearms {2}",
+			"effect": ["Your character is a disciplined shooter, able to maximize her shots and conserve ammo appropriately. Choose a type of firearm when you choose this Merit: Pistol, Shotgun, Rifle, Thrown, Heavy Weapons. Increase the weapon’s effective capacity in your hands by one level. For weapons already at high capacity, this allows an additional long burst. You may choose this Merit multiple times, each time selecting a different category of firearms."],
+			"source": "HL 143"
+		},
+		{
+			"name": "Loaded for Bear",
+			"dots": [1, 2],
+			"prerequisites": "Athletics {1}, Survival {1}",
+			"effect": ["When you go into a situation expecting trouble, you come prepared. Extra ammo, pipe bombs in cargo pockets, a bandolier of grenades, whatever it takes. With one dot of this Merit, you gain an extra free “reload” of a weapon, including single shot weapons, during a scene. Taking two dots in this Merit allows two free “reloads” after running out of ammo, whether by rolling a dramatic failure or following burst fire."],
+			"source": "HL 143"
 		}
 	]
 }
