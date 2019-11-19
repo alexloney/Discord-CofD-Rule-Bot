@@ -334,13 +334,13 @@
 		{
 			"name": "Stunt Driver",
 			"type": "Physical",
-			"dots": [],
+			"dots": [1, 2, 3, 4],
 			"prerequisites": "Dexterity {3}, Drive {3}, Wits {3}",
 			"effect": ["Your character is an expert behind the wheel, and can push a vehicle beyond normal limits. Each dot of this Merit grants access to another driving technique.",
-				"Defensive Driving ({1}): Your character knows how to protect herself and her vehicle while driving. Subtract her Drive dots from any attempt to hit her vehicle while it’s mobile.",
-				"Speed Demon ({2}): Your character is an expert at pushing vehicles to their potential in no time flat. Each success on rolls to accelerate a vehicle (see p.98) raises the vehicle’s Speed by 10 instead of 5.",
-				"Drift ({3}): Your character knows how to use her vehicle’s momentum to efficiently turn at high speeds. She never needs to make a maneuvering roll to turn at high speeds.",
-				"Clipping ({4}): Your character has experience hitting things with her vehicle in such a way as to not hurt herself much. When voluntarily hitting another character or vehicle with hers, ignore damage to her own vehicle equal to her Wits. This is applied before Durability."],
+				"**Defensive Driving ({1})**: Your character knows how to protect herself and her vehicle while driving. Subtract her Drive dots from any attempt to hit her vehicle while it’s mobile.",
+				"**Speed Demon ({2})**: Your character is an expert at pushing vehicles to their potential in no time flat. Each success on rolls to accelerate a vehicle (see p.98) raises the vehicle’s Speed by 10 instead of 5.",
+				"**Drift ({3})**: Your character knows how to use her vehicle’s momentum to efficiently turn at high speeds. She never needs to make a maneuvering roll to turn at high speeds.",
+				"**Clipping ({4})**: Your character has experience hitting things with her vehicle in such a way as to not hurt herself much. When voluntarily hitting another character or vehicle with hers, ignore damage to her own vehicle equal to her Wits. This is applied before Durability."],
 			"source": "CofD 49"
 		},
 		{

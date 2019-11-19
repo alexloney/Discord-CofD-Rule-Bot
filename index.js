@@ -8,11 +8,11 @@ const fuzz = require('fuzzball');
 const client = new Discord.Client();
 
 function replaceWithDots(str) {
-    return str.replace("{1}", "\u2022")
-            .replace("{2}", "\u2022\u2022")
-            .replace("{3}", "\u2022\u2022\u2022")
-            .replace("{4}", "\u2022\u2022\u2022\u2022")
-            .replace("{5}", "\u2022\u2022\u2022\u2022\u2022");
+    return str.replace(/\{1\}/g, "\u2022")
+            .replace(/\{2\}/g, "\u2022\u2022")
+            .replace(/\{3\}/g, "\u2022\u2022\u2022")
+            .replace(/\{4\}/g, "\u2022\u2022\u2022\u2022")
+            .replace(/\{5\}/g, "\u2022\u2022\u2022\u2022\u2022");
 }
 
 function exitHandler(options, exitCode) {
